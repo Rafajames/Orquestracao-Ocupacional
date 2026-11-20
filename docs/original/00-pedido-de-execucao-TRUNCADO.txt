@@ -1,0 +1,124 @@
+EXECUÇÃO COMPLETA — PROJETO ORQUESTRAÇÃO OCUPACIONAL
+
+Quero que você assuma a responsabilidade pelo desenvolvimento completo do projeto Orquestração Ocupacional, desde a organização do repositório até a implementação de uma primeira versão funcional da plataforma web.
+
+Você deverá atuar como arquiteto de software, desenvolvedor full-stack, designer UI/UX, especialista em banco de dados, segurança e documentação técnica.
+
+IMPORTANTE: não quero apenas um planejamento, protótipo visual, demonstração ou conjunto de sugestões. Quero que você efetivamente desenvolva o sistema, teste, documente e salve tudo no GitHub.
+
+Trabalhe de maneira autônoma, tomando decisões técnicas coerentes com as especificações. Não interrompa o desenvolvimento para perguntar sobre detalhes que possam ser resolvidos com decisões técnicas razoáveis. Quando uma decisão depender de validação clínica, segurança, credenciais ou autorização minha, documente a pendência e não invente uma resposta.
+
+---
+
+1. DOCUMENTAÇÃO OBRIGATÓRIA
+
+Utilize como referência principal o arquivo ZIP anexado:
+
+"orquestracao_ocupacional_documentacao_v1.zip"
+
+Ele contém:
+
+- Especificação funcional.
+- Regras de dados e cálculos.
+- Arquitetura técnica.
+- Plano de implementação e testes.
+- SQL inicial do banco de dados.
+- Catálogo original de atividades ocupacionais.
+
+Leia todos os arquivos antes de começar a implementação.
+
+Não descarte, substitua ou simplifique silenciosamente as regras existentes.
+
+Se encontrar contradições, lacunas ou problemas técnicos:
+
+1. Identifique o problema.
+2. Explique sua consequência.
+3. Proponha uma solução.
+4. Registre a decisão na documentação.
+5. Preserve a referência original.
+
+A metodologia ocupacional deve ser preservada. Não invente escores, classificações clínicas, diagnósticos ou conclusões que não estejam fundamentados nas fontes.
+
+2. OBJETIVO DO SISTEMA
+
+Desenvolver uma plataforma web chamada Orquestração Ocupacional.
+
+O sistema permitirá que pacientes, responsáveis ou profissionais preencham informações sobre atividades ocupacionais e rotina.
+
+Essas informações serão recebidas e organizadas para que o terapeuta ocupacional consiga visualizar:
+
+- Atividades realizadas.
+- Frequência das atividades.
+- Tempo dedicado a cada ocupação.
+- Distribuição da rotina.
+- Satisfação.
+- Desconfortos relatados.
+- Atividades não realizadas.
+- Observações.
+- Comparações entre avaliações.
+
+O profissional deverá receber gráficos, tabelas, indicadores e relatórios descritivos.
+
+O sistema deverá funcionar em computadores, tablets e celulares.
+
+3. DECISÕES JÁ DEFINIDAS
+
+Não altere estas decisões sem justificativa documentada.
+
+Catálogo:
+
+- Preservar as atividades originais.
+- Permitir adicionar atividades personalizadas.
+- Permitir organização por áreas e subcategorias.
+- Não modificar avaliações históricas quando o catálogo mudar.
+
+Público:
+
+- Adultos.
+- Crianças.
+
+Preenchimento:
+
+- Por atividade.
+- Por rotina semanal.
+- Possibilidade de utilização dos dois formatos.
+
+Respondentes:
+
+- Paciente.
+- Responsável.
+- Profissional.
+- Paciente e responsável em colaboração.
+- Profissional preenchendo durante entrevista ou observação.
+
+Registrar quem respondeu e qual foi a fonte da informação.
+
+Acesso:
+
+- O profissional utiliza conta autenticada.
+- Pacientes e responsáveis recebem links individuais.
+- Não exigir criação de conta para responder.
+- Os links devem ter expiração e possibilidade de revogação.
+
+Período:
+
+- Configurado pelo profissional.
+- Permitir datas personalizadas.
+- Não limitar o sistema exclusivamente a semanas completas.
+
+Campos:
+
+- O profissional poderá escolher quais campos estarão disponíveis em cada avaliação.
+
+Relatórios:
+
+- Gráficos.
+- Tabelas.
+- Descrições automáticas baseadas nos dados.
+- Considerações profissionais editáveis.
+- Exportação em PDF.
+
+Comparações:
+
+- Comparar avaliações do mesmo paciente com atividades em comum.
+- Também permitir visualizar avaliações com atividades diferen

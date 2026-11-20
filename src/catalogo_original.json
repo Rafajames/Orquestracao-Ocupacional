@@ -1,0 +1,902 @@
+[
+  {
+    "source_number": 1,
+    "name_original": "Banho",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 11,
+    "stable_key": "orig-row-011"
+  },
+  {
+    "source_number": 2,
+    "name_original": "Vestir-se",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 12,
+    "stable_key": "orig-row-012"
+  },
+  {
+    "source_number": 3,
+    "name_original": "Alimentação",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 13,
+    "stable_key": "orig-row-013"
+  },
+  {
+    "source_number": 4,
+    "name_original": "Beber água",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 14,
+    "stable_key": "orig-row-014"
+  },
+  {
+    "source_number": 5,
+    "name_original": "Cuidados com lentes de contato",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 15,
+    "stable_key": "orig-row-015"
+  },
+  {
+    "source_number": 6,
+    "name_original": "Cuidados com óculos",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 16,
+    "stable_key": "orig-row-016"
+  },
+  {
+    "source_number": 7,
+    "name_original": "Remover pelos do corpo",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 17,
+    "stable_key": "orig-row-017"
+  },
+  {
+    "source_number": 8,
+    "name_original": "Aplicar e remover produtos de limpeza",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 18,
+    "stable_key": "orig-row-018"
+  },
+  {
+    "source_number": 9,
+    "name_original": "Pentear, modelar, prender cabelos",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 19,
+    "stable_key": "orig-row-019"
+  },
+  {
+    "source_number": 10,
+    "name_original": "Uso do sanitário - urinar",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 20,
+    "stable_key": "orig-row-020"
+  },
+  {
+    "source_number": 11,
+    "name_original": "Uso do sanitário - defecar",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 21,
+    "stable_key": "orig-row-021"
+  },
+  {
+    "source_number": 12,
+    "name_original": "Cuidar da pele",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 22,
+    "stable_key": "orig-row-022"
+  },
+  {
+    "source_number": 13,
+    "name_original": "Cuidar dos ouvidos",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 23,
+    "stable_key": "orig-row-023"
+  },
+  {
+    "source_number": 14,
+    "name_original": "Cuidar do nariz",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 24,
+    "stable_key": "orig-row-024"
+  },
+  {
+    "source_number": 15,
+    "name_original": "Aplicar desodorante",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 25,
+    "stable_key": "orig-row-025"
+  },
+  {
+    "source_number": 16,
+    "name_original": "Escovar os dentes",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 26,
+    "stable_key": "orig-row-026"
+  },
+  {
+    "source_number": 17,
+    "name_original": "Passar fio dental",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 27,
+    "stable_key": "orig-row-027"
+  },
+  {
+    "source_number": 18,
+    "name_original": "Usar enxágue bucal",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 28,
+    "stable_key": "orig-row-028"
+  },
+  {
+    "source_number": 19,
+    "name_original": "Atividade sexual",
+    "area": "AVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 29,
+    "stable_key": "orig-row-029"
+  },
+  {
+    "source_number": 20,
+    "name_original": "Cuidado dos outros",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 32,
+    "stable_key": "orig-row-032"
+  },
+  {
+    "source_number": 21,
+    "name_original": "Cuidado de animais domésticos",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 33,
+    "stable_key": "orig-row-033"
+  },
+  {
+    "source_number": 22,
+    "name_original": "Educação de crianças",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 34,
+    "stable_key": "orig-row-034"
+  },
+  {
+    "source_number": 23,
+    "name_original": "Uso de telefone / celular",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 35,
+    "stable_key": "orig-row-035"
+  },
+  {
+    "source_number": 24,
+    "name_original": "Uso de transporte público",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 36,
+    "stable_key": "orig-row-036"
+  },
+  {
+    "source_number": 25,
+    "name_original": "Dirigir",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 37,
+    "stable_key": "orig-row-037"
+  },
+  {
+    "source_number": 26,
+    "name_original": "Pedalar",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 38,
+    "stable_key": "orig-row-038"
+  },
+  {
+    "source_number": 27,
+    "name_original": "Uso do dinheiro para transações comerciais",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 39,
+    "stable_key": "orig-row-039"
+  },
+  {
+    "source_number": 28,
+    "name_original": "Condicionamento físico",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 40,
+    "stable_key": "orig-row-040"
+  },
+  {
+    "source_number": 29,
+    "name_original": "Cuidados com a nutrição",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 41,
+    "stable_key": "orig-row-041"
+  },
+  {
+    "source_number": 30,
+    "name_original": "Rotinas de medicação",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 42,
+    "stable_key": "orig-row-042"
+  },
+  {
+    "source_number": 31,
+    "name_original": "Idas rotineiras ao médico",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 43,
+    "stable_key": "orig-row-043"
+  },
+  {
+    "source_number": 32,
+    "name_original": "Outros cuidados com a saúde",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 44,
+    "stable_key": "orig-row-044"
+  },
+  {
+    "source_number": 33,
+    "name_original": "Lavar, enxugar e guardar louças",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 45,
+    "stable_key": "orig-row-045"
+  },
+  {
+    "source_number": 34,
+    "name_original": "Varrer casa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 46,
+    "stable_key": "orig-row-046"
+  },
+  {
+    "source_number": 35,
+    "name_original": "Passar pano na casa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 47,
+    "stable_key": "orig-row-047"
+  },
+  {
+    "source_number": 36,
+    "name_original": "Lavar roupa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 48,
+    "stable_key": "orig-row-048"
+  },
+  {
+    "source_number": 37,
+    "name_original": "Passar roupa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 49,
+    "stable_key": "orig-row-049"
+  },
+  {
+    "source_number": 38,
+    "name_original": "Guardar roupas",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 50,
+    "stable_key": "orig-row-050"
+  },
+  {
+    "source_number": 39,
+    "name_original": "Tirar lixo",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 51,
+    "stable_key": "orig-row-051"
+  },
+  {
+    "source_number": 40,
+    "name_original": "Espanar móveis",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 52,
+    "stable_key": "orig-row-052"
+  },
+  {
+    "source_number": 41,
+    "name_original": "Lavar banheiros",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 53,
+    "stable_key": "orig-row-053"
+  },
+  {
+    "source_number": 42,
+    "name_original": "Cuidar do jardim",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 54,
+    "stable_key": "orig-row-054"
+  },
+  {
+    "source_number": 43,
+    "name_original": "Organizar o quarto",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 55,
+    "stable_key": "orig-row-055"
+  },
+  {
+    "source_number": 44,
+    "name_original": "Abastecer o carro",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 56,
+    "stable_key": "orig-row-056"
+  },
+  {
+    "source_number": 45,
+    "name_original": "Lavar o carro",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 57,
+    "stable_key": "orig-row-057"
+  },
+  {
+    "source_number": 46,
+    "name_original": "Cuidar de veículo exceto carro",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 58,
+    "stable_key": "orig-row-058"
+  },
+  {
+    "source_number": 47,
+    "name_original": "Gerenciamento de empregados do lar",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 59,
+    "stable_key": "orig-row-059"
+  },
+  {
+    "source_number": 48,
+    "name_original": "Preparo de café da manhã",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 60,
+    "stable_key": "orig-row-060"
+  },
+  {
+    "source_number": 49,
+    "name_original": "Preparo de lanches",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 61,
+    "stable_key": "orig-row-061"
+  },
+  {
+    "source_number": 50,
+    "name_original": "Preparo de almoço",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 62,
+    "stable_key": "orig-row-062"
+  },
+  {
+    "source_number": 51,
+    "name_original": "Preparo de jantar",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 63,
+    "stable_key": "orig-row-063"
+  },
+  {
+    "source_number": 52,
+    "name_original": "Orações",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 64,
+    "stable_key": "orig-row-064"
+  },
+  {
+    "source_number": 53,
+    "name_original": "Ida a igrejas, templos, outros espaços",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 65,
+    "stable_key": "orig-row-065"
+  },
+  {
+    "source_number": 54,
+    "name_original": "Cuidados com a segurança em casa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 66,
+    "stable_key": "orig-row-066"
+  },
+  {
+    "source_number": 55,
+    "name_original": "Cuidados com a segurança no trânsito",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 67,
+    "stable_key": "orig-row-067"
+  },
+  {
+    "source_number": 56,
+    "name_original": "Cuidados com a segurança na comunidade",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 68,
+    "stable_key": "orig-row-068"
+  },
+  {
+    "source_number": 57,
+    "name_original": "Fazer compras de casa",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 69,
+    "stable_key": "orig-row-069"
+  },
+  {
+    "source_number": 58,
+    "name_original": "Fazer compras pessoais",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 70,
+    "stable_key": "orig-row-070"
+  },
+  {
+    "source_number": 59,
+    "name_original": "Fazer compras extras",
+    "area": "AIVD",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 71,
+    "stable_key": "orig-row-071"
+  },
+  {
+    "source_number": 60,
+    "name_original": "Repouso",
+    "area": "Descanso e sono",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 75,
+    "stable_key": "orig-row-075"
+  },
+  {
+    "source_number": 61,
+    "name_original": "Ritual para se preparar para o sono",
+    "area": "Descanso e sono",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 76,
+    "stable_key": "orig-row-076"
+  },
+  {
+    "source_number": 62,
+    "name_original": "Dormir",
+    "area": "Descanso e sono",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 77,
+    "stable_key": "orig-row-077"
+  },
+  {
+    "source_number": 63,
+    "name_original": "Insônia",
+    "area": "Descanso e sono",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 78,
+    "stable_key": "orig-row-078"
+  },
+  {
+    "source_number": 64,
+    "name_original": "Acordar durante a noite para ir ao banheiro",
+    "area": "Descanso e sono",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 79,
+    "stable_key": "orig-row-079"
+  },
+  {
+    "source_number": 65,
+    "name_original": "Paticipação em ensino fundamental",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 83,
+    "stable_key": "orig-row-083"
+  },
+  {
+    "source_number": 66,
+    "name_original": "Participação em ensino médio",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 84,
+    "stable_key": "orig-row-084"
+  },
+  {
+    "source_number": 67,
+    "name_original": "Participação em EJA",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 85,
+    "stable_key": "orig-row-085"
+  },
+  {
+    "source_number": 68,
+    "name_original": "Participação em graduação",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 86,
+    "stable_key": "orig-row-086"
+  },
+  {
+    "source_number": 69,
+    "name_original": "Participação em pós-graduação",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 87,
+    "stable_key": "orig-row-087"
+  },
+  {
+    "source_number": 70,
+    "name_original": "Participação em cursos qualificacão profissional",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 88,
+    "stable_key": "orig-row-088"
+  },
+  {
+    "source_number": 71,
+    "name_original": "Participação em cursos diversos",
+    "area": "Educação",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 89,
+    "stable_key": "orig-row-089"
+  },
+  {
+    "source_number": 72,
+    "name_original": "Participação em trabalho formal",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 93,
+    "stable_key": "orig-row-093"
+  },
+  {
+    "source_number": 73,
+    "name_original": "Habilidades e desempenho no trabalho",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 94,
+    "stable_key": "orig-row-094"
+  },
+  {
+    "source_number": 74,
+    "name_original": "Relação com os colegas, chefes, clientes",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 95,
+    "stable_key": "orig-row-095"
+  },
+  {
+    "source_number": 75,
+    "name_original": "Gerenciamento do tempo do trabalho",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 96,
+    "stable_key": "orig-row-096"
+  },
+  {
+    "source_number": 76,
+    "name_original": "Participação em trabalho informal",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 97,
+    "stable_key": "orig-row-097"
+  },
+  {
+    "source_number": 77,
+    "name_original": "Participação em trabalho voluntário",
+    "area": "Trabalho",
+    "subcategory": null,
+    "source_sheet": "Plan1",
+    "source_row": 98,
+    "stable_key": "orig-row-098"
+  },
+  {
+    "source_number": 78,
+    "name_original": "Assistir TV",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 103,
+    "stable_key": "orig-row-103"
+  },
+  {
+    "source_number": 79,
+    "name_original": "Assistir DVD",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 104,
+    "stable_key": "orig-row-104"
+  },
+  {
+    "source_number": 80,
+    "name_original": "Ouvir música",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 105,
+    "stable_key": "orig-row-105"
+  },
+  {
+    "source_number": 81,
+    "name_original": "Ler livro (exceto de trabalho, estudo, religião)",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 106,
+    "stable_key": "orig-row-106"
+  },
+  {
+    "source_number": 82,
+    "name_original": "Artesanato",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 107,
+    "stable_key": "orig-row-107"
+  },
+  {
+    "source_number": 83,
+    "name_original": "Internet (exceto trabalho, estudo)",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 108,
+    "stable_key": "orig-row-108"
+  },
+  {
+    "source_number": 84,
+    "name_original": "Conversar",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 109,
+    "stable_key": "orig-row-109"
+  },
+  {
+    "source_number": 85,
+    "name_original": "Outros",
+    "area": "Lazer",
+    "subcategory": "Em casa",
+    "source_sheet": "Plan1",
+    "source_row": 110,
+    "stable_key": "orig-row-110"
+  },
+  {
+    "source_number": 86,
+    "name_original": "Ir a barsinhos",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 112,
+    "stable_key": "orig-row-112"
+  },
+  {
+    "source_number": 87,
+    "name_original": "Ir a praia",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 113,
+    "stable_key": "orig-row-113"
+  },
+  {
+    "source_number": 88,
+    "name_original": "Ir a casas de show",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 114,
+    "stable_key": "orig-row-114"
+  },
+  {
+    "source_number": 89,
+    "name_original": "Ir ao cinema",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 115,
+    "stable_key": "orig-row-115"
+  },
+  {
+    "source_number": 90,
+    "name_original": "Ir ao shopping",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 116,
+    "stable_key": "orig-row-116"
+  },
+  {
+    "source_number": 91,
+    "name_original": "Ir a restaurantes",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 117,
+    "stable_key": "orig-row-117"
+  },
+  {
+    "source_number": 92,
+    "name_original": "Ir a festas",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 118,
+    "stable_key": "orig-row-118"
+  },
+  {
+    "source_number": 93,
+    "name_original": "Ir a aniversários",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 119,
+    "stable_key": "orig-row-119"
+  },
+  {
+    "source_number": 94,
+    "name_original": "Ir a confraternizações",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 120,
+    "stable_key": "orig-row-120"
+  },
+  {
+    "source_number": 94,
+    "name_original": "Ir a museus",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 121,
+    "stable_key": "orig-row-121"
+  },
+  {
+    "source_number": 96,
+    "name_original": "Ir a parques",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 122,
+    "stable_key": "orig-row-122"
+  },
+  {
+    "source_number": 97,
+    "name_original": "Outros",
+    "area": "Lazer",
+    "subcategory": "Em espaços da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 123,
+    "stable_key": "orig-row-123"
+  },
+  {
+    "source_number": 98,
+    "name_original": "Viajar",
+    "area": "Lazer",
+    "subcategory": "Em espaços fora da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 125,
+    "stable_key": "orig-row-125"
+  },
+  {
+    "source_number": 99,
+    "name_original": "Conhecer pontos turísticos",
+    "area": "Lazer",
+    "subcategory": "Em espaços fora da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 126,
+    "stable_key": "orig-row-126"
+  },
+  {
+    "source_number": 100,
+    "name_original": "Visitar parentes",
+    "area": "Lazer",
+    "subcategory": "Em espaços fora da cidade",
+    "source_sheet": "Plan1",
+    "source_row": 127,
+    "stable_key": "orig-row-127"
+  }
+]
