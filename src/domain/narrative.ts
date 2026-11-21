@@ -7,7 +7,6 @@ import type { Discomfort, FrequencyUnit } from './types'
 export function describe(an: Analysis): string[] {
   const out: string[] = []
   const nAct = an.activities.length
-  const c = an.statusCounts
   const act = (st: string) => an.activities.filter((s) => s.status === st)
   out.push(`O período de referência foi de ${formatDate(an.period.start)} a ${formatDate(an.period.end)} (${an.period.days.length} dia(s)), com ${nAct} atividade(s) incluída(s) na avaliação.`)
   out.push(`Houve registro de realização em ${act('performed').length} atividade(s). Foi informado que ${act('not_performed').length} atividade(s) não são realizadas no período; ${act('not_applicable').length} foram marcadas como “não se aplica”, ${act('unknown').length} como “não sabe informar” e ${act('not_answered').length} ficaram sem resposta.`)
