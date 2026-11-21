@@ -72,8 +72,8 @@ export function RecordEditor({ occ, cfg, value: v, onChange, dayMode, idPrefix }
       {showData && (
         <div className="grid g2 mt">
           {f.duration.enabled && (
-            <div className="field"><label htmlFor={`${idPrefix}-dur`}>{dayMode ? 'Tempo de cada vez' : 'Tempo de cada vez'}{f.duration.required && ' *'}</label>
-              <DurationInput id={`${idPrefix}-dur`} label="Duração por vez" value={v.durationMinutes} onChange={(x) => update({ durationMinutes: x })} /></div>
+            <div className="field"><label htmlFor={`${idPrefix}-dur`}>Tempo de cada vez{f.duration.required && ' *'}</label>
+              <DurationInput id={`${idPrefix}-dur`} label="Tempo de cada vez" value={v.durationMinutes} onChange={(x) => update({ durationMinutes: x })} /></div>
           )}
           {f.occurrences.enabled && (
             <div className="field"><label htmlFor={`${idPrefix}-occ`}>{dayMode ? 'Quantas vezes neste dia' : 'Quantas vezes no período'}{f.occurrences.required && ' *'}</label>
@@ -81,7 +81,7 @@ export function RecordEditor({ occ, cfg, value: v, onChange, dayMode, idPrefix }
           )}
           {f.direct_total.enabled && (
             <div className="field"><label htmlFor={`${idPrefix}-tot`}>{dayMode ? 'Tempo total neste dia' : 'Tempo total no período'}{f.direct_total.required && ' *'} <span className="hint">(se já souber o total)</span></label>
-              <DurationInput id={`${idPrefix}-tot`} label="Tempo total" value={v.directTotalMinutes} onChange={(x) => update({ directTotalMinutes: x })} /></div>
+              <DurationInput id={`${idPrefix}-tot`} label={dayMode ? 'Tempo total neste dia' : 'Tempo total no período'} value={v.directTotalMinutes} onChange={(x) => update({ directTotalMinutes: x })} /></div>
           )}
           {f.frequency.enabled && (
             <div className="field"><label htmlFor={`${idPrefix}-fq`}>Frequência habitual{f.frequency.required && ' *'}</label>

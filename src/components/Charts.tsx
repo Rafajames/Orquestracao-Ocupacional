@@ -11,7 +11,7 @@ function Box({ title, summary, children, fixed, h = 260 }: { title: string; summ
     <figure style={{ margin: 0 }} aria-label={title}>
       <h3>{title}</h3>
       <div role="img" aria-label={`${title}. ${summary}`} style={{ width: '100%', height: h }}>
-        {fixed ? children(680) : <ResponsiveContainer width="100%" height="100%">{children() as React.ReactElement}</ResponsiveContainer>}
+        {fixed ? children(640) : <ResponsiveContainer width="100%" height="100%">{children() as React.ReactElement}</ResponsiveContainer>}
       </div>
     </figure>
   )
@@ -26,6 +26,7 @@ export function Charts({ an, fixed }: { an: Analysis; fixed?: boolean }) {
   const sat = [{ name: SATISFACTION_LABEL.satisfied, n: an.satisfaction.satisfied }, { name: SATISFACTION_LABEL.dissatisfied, n: an.satisfaction.dissatisfied }]
   const dis = (['physical', 'mental', 'sensory', 'none'] as Discomfort[]).map((d) => ({ name: DISCOMFORT_LABEL[d], n: an.discomfort.counts[d] }))
 
+  const hOf = (n: number) => Math.max(180, n * 30 + 40)
   const vertical = (data: { name: string; minutos: number }[], w?: number) => (
     <BarChart width={w} height={w ? 260 : undefined} data={data} margin={{ top: 8, right: 8, left: 0, bottom: 8 }}>
       <CartesianGrid strokeDasharray="3 3" vertical={false} /><XAxis dataKey="name" tick={{ fontSize: 11 }} interval={0} angle={data.length > 7 ? -35 : 0} textAnchor={data.length > 7 ? 'end' : 'middle'} height={data.length > 7 ? 60 : 30} />
@@ -41,21 +42,20 @@ export function Charts({ an, fixed }: { an: Analysis; fixed?: boolean }) {
     </BarChart>
   )
   const counts = (data: { name: string; n: number }[], colors: string[], w?: number) => (
-    <BarChart width={w} height={w ? 240 : undefined} data={data} margin={{ top: 8, right: 8, left: 0, bottom: 8 }}>
-      <CartesianGrid strokeDasharray="3 3" vertical={false} /><XAxis dataKey="name" tick={{ fontSize: 11 }} interval={0} /><YAxis allowDecimals={false} tick={{ fontSize: 11 }} /><Tooltip />
+    <BarChart width={w} height={w ? hOf(data.length) : undefined} data={data} layout="vertical" margin={{ top: 4, right: 24, left: 8, bottom: 4 }}>
+      <CartesianGrid strokeDasharray="3 3" horizontal={false} /><XAxis type="number" allowDecimals={false} tick={{ fontSize: 11 }} /><YAxis type="category" dataKey="name" width={150} tick={{ fontSize: 11 }} /><Tooltip />
       <Bar dataKey="n" name="Registros" isAnimationActive={false}>{data.map((_, i) => <Cell key={i} fill={colors[i % colors.length]} />)}</Bar>
     </BarChart>
   )
-  const hOf = (n: number) => Math.max(180, n * 30 + 40)
-
+  
   return (
-    <div className="grid g2">
+    <div className="grid" style={{ gridTemplateColumns: fixed ? '1fr' : 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))' }}>
       <Box title="Tempo registrado por dia" summary={`Total ${formatMinutes(an.totalMinutes)} no período.`} fixed={fixed}>{(w) => vertical(byDay, w)}</Box>
       {byArea.length > 0 && <Box title="Tempo por área" summary={byArea.map((a) => `${a.name}: ${formatMinutes(a.minutos)}`).join('; ')} fixed={fixed} h={hOf(byArea.length)}>{(w) => horizontal(byArea, w)}</Box>}
       {top.length > 0 && <Box title="Atividades com mais tempo (até 10)" summary={top.map((a) => `${a.name}: ${formatMinutes(a.minutos)}`).join('; ')} fixed={fixed} h={hOf(top.length)}>{(w) => horizontal(top, w)}</Box>}
-      <Box title="Situação dos registros" summary={statuses.map((s) => `${s.name}: ${s.n}`).join('; ')} fixed={fixed} h={240}>{(w) => counts(statuses, [C.ok, C.grey, C.grey, C.grey, C.accent], w)}</Box>
-      {an.satisfaction.enabled && <Box title={`Satisfação (${an.satisfaction.valid} resposta(s) válida(s))`} summary={`Satisfeito ${an.satisfaction.satisfied}, insatisfeito ${an.satisfaction.dissatisfied}; sem resposta ${an.satisfaction.unanswered}.`} fixed={fixed} h={240}>{(w) => counts(sat, [C.ok, C.accent], w)}</Box>}
-      {an.discomfort.enabled && <Box title={`Desconforto (${an.discomfort.validRecords} registro(s) com resposta)`} summary={dis.map((d) => `${d.name}: ${d.n}`).join('; ')} fixed={fixed} h={240}>{(w) => counts(dis, [C.brand, C.brand, C.brand, C.grey], w)}</Box>}
+      <Box title="Situação dos registros" summary={statuses.map((s) => `${s.name}: ${s.n}`).join('; ')} fixed={fixed} h={hOf(statuses.length)}>{(w) => counts(statuses, [C.ok, C.grey, C.grey, C.grey, C.accent], w)}</Box>
+      {an.satisfaction.enabled && <Box title={`Satisfação (${an.satisfaction.valid} resposta(s) válida(s))`} summary={`Satisfeito ${an.satisfaction.satisfied}, insatisfeito ${an.satisfaction.dissatisfied}; sem resposta ${an.satisfaction.unanswered}.`} fixed={fixed} h={hOf(sat.length)}>{(w) => counts(sat, [C.ok, C.accent], w)}</Box>}
+      {an.discomfort.enabled && <Box title={`Desconforto (${an.discomfort.validRecords} registro(s) com resposta)`} summary={dis.map((d) => `${d.name}: ${d.n}`).join('; ')} fixed={fixed} h={hOf(dis.length)}>{(w) => counts(dis, [C.brand, C.brand, C.brand, C.grey], w)}</Box>}
     </div>
   )
 }

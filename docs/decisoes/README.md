@@ -81,3 +81,16 @@ A planilha principal começa na sexta e a Edivania na segunda. O sistema não as
 
 ## ADR-018 — Pedido de execução truncado 🔒
 O arquivo `docs/original/00-pedido-de-execucao-TRUNCADO.txt` chegou cortado em 4 KB (seção 3, "Comparações"). As seções seguintes não foram lidas. Pendência P-07.
+
+## ADR-019 — Um respondente por análise ✅
+- **Problema:** uma avaliação pode ter várias sessões de resposta (ex.: paciente pelo link e profissional em entrevista). Somar tudo contaria a mesma atividade/dia duas vezes e misturaria autorrelato com observação (doc 01 §3.4).
+- **Solução:** cada sessão é analisada **separadamente**; a tela de avaliação e o relatório têm seletor de sessão (padrão: a última enviada). O banco impõe unicidade por `(sessão, atividade, data)`. Combinar respondentes numa visão única exige regra clínica e fica fora da v1.
+
+## ADR-020 — Link: só hash, validade obrigatória, token gerado no servidor ✅
+Token de 256+ bits; só o SHA-256 é guardado; validade obrigatória (máx. 1 ano); revogação imediata; leitura da coluna `token_hash` negada ao cliente. No SQL o token é gerado pela função `create_assessment_link` (3 UUIDs aleatórios concatenados), sem depender de `pgcrypto`.
+
+## ADR-021 — "Expirada" é derivada ✅
+Não há tarefa agendada que mude o `status` para `expired`: a validade é verificada no acesso (link expirado → erro) e o painel mostra "sem link ativo". As respostas nunca são apagadas por expiração (doc 01 §5).
+
+## ADR-022 — Acessibilidade ✅
+Rótulos acessíveis iguais ao texto visível, alvos de toque ≥ 44 px, foco visível, navegação por teclado, link "ir para o conteúdo", gráficos com descrição textual e tabelas equivalentes. Revisão formal WCAG e teste com leitor de tela ficam para a homologação (P-10).
